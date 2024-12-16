@@ -1,5 +1,5 @@
 FROM golang:1.22-alpine
-WORKDIR /go/src/github.com/suphutsorn/testdocker
+WORKDIR /go/src/backend
 COPY . .
 RUN apk add build-base
 RUN go mod tidy
